@@ -1,0 +1,107 @@
+.card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 150px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.card p {
+    font-weight: 100;
+    font-size: 17px;
+    color: rgb(107, 107, 107);
+}
+.card a {
+    color: inherit;
+}
+.profileImage img {
+    border-radius: 50%;
+    width: 400px;
+    margin-left: 30px;
+    background-color: rgb(38, 38, 38);
+}
+.profileImage {
+    position: relative;
+    width: 420px;
+    height: 420px;
+    margin-left: 40px;
+  }
+  .profileImage::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    background: rgb(38, 38, 38);
+    background-image: url('../assets/profileImage.png');
+    background-size: 100%;
+    z-index: -1;
+    animation: morph 14s ease-in-out infinite;
+}
+.wavingEmoji {
+    animation: waveHandEmoji 5.5s infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+.card .cardText {
+    flex-direction: column;
+    width: 430px;
+}
+.card a {
+    cursor: pointer;
+}
+.githubIcon, .linkedInIcon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.card .githubIcon:hover, .card .linkedInIcon:hover {
+    transform: scale(1.3);
+}
+@keyframes morph {
+    0% {
+      border-radius: 50% 50% 50% 50%;
+    }
+    25% {
+      border-radius: 55% 45% 55% 45%;
+    }
+    50% {
+      border-radius: 45% 55% 45% 55%;
+    }
+    75% {
+      border-radius: 50% 50% 55% 45%;
+    }
+    100% {
+      border-radius: 50% 50% 50% 50%;
+    }
+}
+@keyframes waveHandEmoji {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

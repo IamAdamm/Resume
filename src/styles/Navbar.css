@@ -1,0 +1,41 @@
+ .navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .leftSide {
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    margin: 30px;
+}
+.navbar .leftSide h3{
+    cursor: pointer;
+}
+.navbar .rightSide a {
+    font-size: 20px;
+    margin: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.navbar .rightSide a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #fff9e9;
+    transition: all .5s;
+}
+.navbar .rightSide a:hover::before {
+    width: 100%;
+}

@@ -1,0 +1,55 @@
+.techstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    width: 480px;
+}
+.techstack h4 {
+    border-right: 2px solid black;
+    padding: 5px;
+    padding-right: 20px;
+}
+.techstack img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+.techstack .htmlIcon {
+    transition: transform .3s ;
+}
+.techstack .htmlIcon:hover {
+    transform: translateY(-10px);
+}
+.techstack .cssIcon {
+    transition: transform .3s ;
+}
+.techstack .cssIcon:hover {
+    transform: translateY(-10px);
+}
+.techstack .javascriptIcon {
+    transition: transform .3s ;
+}
+.techstack .javascriptIcon:hover {
+    transform: translateY(-10px);
+}
+.techstack .reactIcon {
+    transition: transform .3s ;
+}
+.techstack .reactIcon:hover {
+    transform: translateY(-10px);
+}
+.techstack .tailwindIcon {
+    transition: transform .3s ;
+    width: 38px;
+    height: 28px;
+}
+.techstack .tailwindIcon:hover {
+    transform: translateY(-10px);
+}
+.techstack .shopifyIcon {
+    transition: transform .3s ;
+}
+.techstack .shopifyIcon:hover {
+    transform: translateY(-10px);
+}

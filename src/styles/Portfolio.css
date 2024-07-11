@@ -1,0 +1,106 @@
+.portfolio {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    align-items: center;
+}
+.portfolio h5 {
+    font-weight: bolder;
+    color: blue;
+}
+.portfolio h2 {
+    font-weight: bolder;
+    margin-top: -20px;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+.portfolio img {
+    width: 300px;
+    border-radius: 10%;
+    border: 3px solid black;
+}
+.portfolio .WeightTrackerImage{
+    width: 280px;
+}
+.portfolio .projectBox {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-bottom: 50px;
+    opacity: 0%;
+}
+.portfolio .projectBoxReverse {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-bottom: 50px;
+    opacity: 0%;
+}
+
+.portfolio .projectText {
+    flex-direction: column;
+    text-align: center;
+    width: 240px;
+}
+.portfolio .projectText p {
+    color: grey;
+}
+.portfolio .projectText h3 {
+    font-size: 20px;
+}
+.portfolio .projectText .projectTextLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio .projectText a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio .projectText a:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+.portfolioPhaseInFromRight {
+    opacity: 100% !important;
+    animation: PhaseInFromRight .5s;
+    transition: all .5s;
+}
+.portfolioTitle.portfolioPhaseInFromRight h5 {
+    opacity: 100% !important;
+    animation: PhaseInFromRight 1.3s;
+    transition: all .5s;
+}
+.portfolioPhaseInFromLeft {
+    opacity: 100% !important;
+    animation: PhaseInFromLeft .5s;
+    transition: all .5s;
+}
+@keyframes PhaseInFromRight {
+    0% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes PhaseInFromLeft {
+    0% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

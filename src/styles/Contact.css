@@ -1,0 +1,234 @@
+.contact {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .contactContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+}
+.contactRightSide {
+    display: flex;
+    flex-direction: column;
+}
+.contact .contactTitle {
+    opacity: 0%;
+}
+.contact .contactTitle h5 {
+    font-weight: bolder;
+    color: blue;
+    opacity: 0%;
+}
+.contact .contactTitle h2 {
+    font-weight: bolder;
+    margin-top: -28px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.contact .contactIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 25px;
+}
+.contact .contactMail, .contactLocation, .contactNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+}
+.contact .mailIcon, .locationIcon, .numberIcon {
+    background-color: rgb(38, 38, 38);
+    width: 45px;
+    height: 45px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+}
+.contact .mailText, .locationText, .numberText {
+    margin-left: 10px;
+    width: 190px;
+}
+.contact a {
+    color: grey;
+    text-decoration: none;
+    display: inline-block; 
+    transform: translateY(-15px);
+}
+.contact p {
+    transform: translateY(-15px);
+    color: grey;
+}
+.contact a:hover {
+    color: blue;
+}
+.contact .contactForm {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(38, 38, 38);
+    text-align: center;
+    color: white;
+    border-radius: 10%;
+    height: 350px;
+    width: 400px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+    opacity: 0%;
+}
+.contactFormScaleAnim {
+    animation: scaleAnimation 1s forwards;
+}
+.contact .contactForm .contactFormTitle {
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.contactFormTitleText {
+    white-space: nowrap; 
+    overflow: hidden;
+    width: 233px;
+    border-right: 1px solid white;
+    opacity: 0%;
+
+}
+.contactFormTitleTypingAnim {
+    animation: typingAnimation 3s steps(27) 2.5s forwards, 
+               typingAnimationCursor .4s step-end infinite alternate;
+}
+.contact .contactForm .contactFormInput {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .contactForm .contactFormInput .field {
+    width: 210px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.contact .contactForm .contactFormInput .field-Mess{
+    border: 2px solid white;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    margin-top: 8px;
+    height: 100px;
+    width: 250px;
+}
+.contact .contactForm button {
+    height: 30px;
+    border-radius: 6px;
+    border: 3px solid rgb(38, 38, 38);
+    background: white;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact .contactForm button:hover {
+    transition: all .2s;
+    transform: translateY(1px);
+}
+.contactFormInputMessage {
+    margin-top: -16px;
+}
+.contactFormInputEmail {
+    margin-top: -35px;
+}
+.pointingDownEmoji {
+    font-size: 35px;
+    animation: pointDown 3.5s infinite ease-in-out;
+    display: inline-block;
+}
+@keyframes pointDown {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes typingAnimation {
+    0% { 
+        width: 0; 
+        opacity: 0%;
+    }
+    1% {
+        width: 0;
+        opacity: 100%;
+    }
+    100% {
+        width: 233px;
+        opacity: 100%;
+    }
+}
+@keyframes typingAnimationCursor {
+    50% { border-color: transparent; }
+}
+@keyframes scaleAnimation {
+    0% {
+        scale: 0%;
+        opacity: 0%;
+        filter: blur(5px);
+    }
+    100% {
+        scale: 100%;
+        opacity: 100%;
+        filter: blur(0px);
+    }
+}
+.contactPhaseInFromRight {
+    opacity: 100% !important;
+    animation: PhaseInFromRight .5s;
+    transition: all .5s;
+}
+.contacth5PhaseInFromRight{
+    opacity: 100% !important;
+    animation: PhaseInFromRight 1.3s;
+    transition: all .5s;
+}
+.contactEmailIconPhaseInFromRight {
+    opacity: 100% !important;
+    animation: PhaseInFromRight 2s;
+    transition: all .5s;
+}
+.contactLocationIconPhaseInFromRight {
+    opacity: 100% !important;
+    animation: PhaseInFromRight 2.3s;
+    transition: all .5s;
+}
+.contactNumberIconPhaseInFromRight {
+    opacity: 100% !important;
+    animation: PhaseInFromRight 2.6s;
+    transition: all .5s;
+}
+@keyframes PhaseInFromRight {
+    0% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
