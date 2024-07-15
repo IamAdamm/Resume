@@ -211,17 +211,17 @@
 }
 .contactEmailIconPhaseInFromRight {
     opacity: 100% !important;
-    animation: PhaseInFromRight 2s;
+    animation: PhaseInFromRight 1.3s;
     transition: all .5s;
 }
 .contactLocationIconPhaseInFromRight {
     opacity: 100% !important;
-    animation: PhaseInFromRight 2.3s;
+    animation: PhaseInFromRight 1.6s;
     transition: all .5s;
 }
 .contactNumberIconPhaseInFromRight {
     opacity: 100% !important;
-    animation: PhaseInFromRight 2.6s;
+    animation: PhaseInFromRight 1.9s;
     transition: all .5s;
 }
 @keyframes PhaseInFromRight {
@@ -231,4 +231,10 @@
     100% {
         transform: translateX(0px);
     }
+}
+@media screen and (max-width: 700px) {
+    .contact .contactContainer {
+        flex-direction: column;
+    }
+
 }

@@ -1,4 +1,4 @@
- .navbar {
+.navbar {
     width: 100%;
     height: 80px;
     display: flex;
@@ -38,4 +38,84 @@
 }
 .navbar .rightSide a:hover::before {
     width: 100%;
+}
+.navbar .reorderIcon {
+    display: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.navbar .reorder {
+    display: none;
+    margin-right: 40px;
+    transition: all .5s;
+}
+.navbar .reorderLinks {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+    position: absolute;
+    z-index: -1000;
+    color: white;
+    font-size: 3rem;
+    background-color: rgb(38, 38, 38);
+    width: 100%;
+    height: 100vh;
+    left: 0%;
+    overflow-y: auto;
+    animation: reorderLinksDropdown .5s
+}
+.navbar .reorderLinks a{
+    margin-top: 10%;
+    cursor: pointer;
+}
+.navbar .reorderLinks a:hover{
+    scale: 1.1;
+    transition: scale .1s;
+}
+.display {
+    display: flex !important;
+}
+@media screen and (max-width: 700px) {
+    .rightSide {
+        display: none;
+    }
+    .leftSide {
+        justify-content: center;
+        flex-grow: 1;
+        margin-right: -40px !important;
+    }
+    .navbar .reorder {
+        display: inline-block;
+    }
+    .navbar .reorderIcon {
+        display: inline-block;
+    }
+}
+.reorderIconAnim {
+    animation: rotate .6s;
+}
+@keyframes rotate {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+@keyframes reorderLinksDropdown {
+    0% {
+        transform: translateY(-850px);
+        font-size: 0;
+        color: rgb(38, 38, 38);
+    }
+    40% {
+        color: rgb(38, 38, 38);
+    }
+    100% {
+        transform: translateY(0px);
+        font-size: 3rem;
+        color: white;
+    }
 }

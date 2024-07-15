@@ -60,3 +60,10 @@
         transform: translateX(0px);
     }
 }
+@media screen and (max-width: 700px) {
+    .about {
+        flex-direction: column-reverse;
+
+    }
+
+}
