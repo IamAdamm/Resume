@@ -8,6 +8,7 @@
     margin-top: 150px;
     flex-direction: row-reverse;
     align-items: center;
+    width: 100%;
 }
 .card p {
     font-weight: 100;
@@ -17,12 +18,14 @@
 .card a {
     color: inherit;
 }
+/* doesnt do anything?? why did i put this here?
 .profileImage img {
     border-radius: 50%;
     width: 400px;
     margin-left: 30px;
     background-color: rgb(38, 38, 38);
 }
+*/
 .profileImage {
     position: relative;
     width: 420px;
@@ -51,6 +54,7 @@
 .card .cardText {
     flex-direction: column;
     width: 430px;
+    max-width: 100%;
 }
 .card a {
     cursor: pointer;
@@ -108,9 +112,22 @@
 @media screen and (max-width: 700px) {
     .card {
         flex-wrap: wrap;
-
+        width: 390px;
     }
     .card .cardText {
         margin-top: 10%;
+    }
+    .profileImage {
+        width: 340px;
+        height: 340px;
+        margin-left: 0px;
+      }
+      .card .cardText {
+        text-align: center;
+        width: 90%;
+        font-size: 42px;
+    }
+    .githubIcon, .linkedInIcon {
+       margin: 0 10px;
     }
 }

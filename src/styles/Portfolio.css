@@ -2,7 +2,7 @@
     margin-top: 300px;
     display: flex;
     flex-direction: column;
-    max-width: 60%;
+    max-width: 80%;
     align-items: center;
 }
 .portfolio h5 {
@@ -19,9 +19,11 @@
     width: 300px;
     border-radius: 10%;
     border: 3px solid black;
+
 }
 .portfolio .WeightTrackerImage{
     width: 280px;
+
 }
 .portfolio .projectBox {
     flex-direction: row;
@@ -39,7 +41,6 @@
     margin-bottom: 50px;
     opacity: 0%;
 }
-
 .portfolio .projectText {
     flex-direction: column;
     text-align: center;
@@ -115,5 +116,15 @@
         justify-content: center;
         align-items: center;
     }
-
+    .portfolioTitle {
+        text-align: center;
+    }
+    .portfolio .projectBox {
+        margin-bottom: 150px;
+        width: 300px;
+    }
+    .portfolio .projectBoxReverse {
+        margin-bottom: 150px;
+        width: 300px;
+    }
 }

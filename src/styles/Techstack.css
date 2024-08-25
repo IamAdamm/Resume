@@ -3,16 +3,17 @@
     flex-direction: row;
     align-items: center;
     margin-top: 60px;
-    width: 480px;
+    width: 40%;
 }
 .techstack h4 {
     border-right: 2px solid black;
     padding: 5px;
     padding-right: 20px;
+    font-size: 20px;
 }
 .techstack img {
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
     margin-left: 30px;
 }
 .techstack .htmlIcon {
@@ -52,4 +53,20 @@
 }
 .techstack .shopifyIcon:hover {
     transform: translateY(-10px);
+}
+@media screen and (max-width: 700px) {
+    .techstack {
+        flex-direction: column;
+        margin-top: 140px;
+        width: 60%;
+        flex-wrap: wrap;
+    }
+    .techstack .Icons img{
+        margin-top: 20px;
+    }
+    .techstack h4 {
+        border: none;
+        font-size: 24px;
+        padding: none;
+    }
 }
