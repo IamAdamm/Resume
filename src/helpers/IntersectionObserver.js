@@ -4,6 +4,13 @@ const useIntersectionObserver = (selector, className, options = { threshold: 0.2
   useEffect(() => {
     const elements = document.querySelectorAll(selector);
 
+    const mediaQuery = window.matchMedia('(max-width: 700px)');
+
+    // If the media query matches, do not observe elements
+    if (mediaQuery.matches) {
+      return;
+    }
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
