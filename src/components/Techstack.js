@@ -4,7 +4,7 @@ import Html from '../assets/html-5.png';
 import Css from '../assets/css-3.png';
 import Javascript from '../assets/js.png';
 import ReactIcon from '../assets/react.png';
-import Shopify from '../assets/shopify.png';
+import MySQL from '../assets/mysql.png';
 import Tailwind from '../assets/tailwind.png';
 
 function Techstack() {
@@ -17,7 +17,7 @@ function Techstack() {
             <img src={Javascript} alt='Javascript' className='javascriptIcon'/>
             <img src={ReactIcon} alt='React' className='reactIcon'/>
             <img src={Tailwind} alt='Tailwind' className='tailwindIcon'/>
-            <img src={Shopify} alt='Shopify' className='shopifyIcon'/>
+            <img src={MySQL} alt='MySQL' className='mySQLIcon'/>
         </div>
     </div>
   )

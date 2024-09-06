@@ -48,10 +48,10 @@
 .techstack .tailwindIcon:hover {
     transform: translateY(-10px);
 }
-.techstack .shopifyIcon {
+.techstack .mySQLIcon {
     transition: transform .3s ;
 }
-.techstack .shopifyIcon:hover {
+.techstack .mySQLIcon:hover {
     transform: translateY(-10px);
 }
 @media screen and (max-width: 700px) {

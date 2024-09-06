@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
-import AboutImage from '../assets/aboutImg.png';
+import AboutImage from '../assets/Aboutpic.png';
 import useIntersectionObserver from '../helpers/IntersectionObserver';
 
 function About() {
@@ -18,8 +18,8 @@ function About() {
             <p>
                 As a Junior Front-End Developer, 
                 I bring an impressive skill set 
-                in HTML, CSS, JavaScript, React, 
-                and Shopify. <br/><br/> I specialize in 
+                in HTML, CSS, JavaScript, React,
+                and more. <br/><br/> I specialize in 
                 designing, building, and maintaining 
                 responsive websites that provide 
                 seamless user experiences. My 
@@ -27,7 +27,8 @@ function About() {
                 dynamic, engaging interfaces 
                 through clean, optimized code 
                 and the use of the latest development 
-                tools and techniques. <br/><br/> I excel in 
+                tools, frameworks and techniques. <br/><br/> 
+                I excel in 
                 collaborative environments, working 
                 with cross-functional teams to create 
                 outstanding web applications.

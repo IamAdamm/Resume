@@ -58,7 +58,7 @@ function Contact() {
                         </div>
                         <div className='mailText'>
                             <h3>Email</h3>
-                            <a href='https://www.google.com/maps/place/Hamburg/' target='_blank' rel='noopener noreferrer'>adam.astamir@hotmail.de</a>
+                            <a href='mailto:adam.astamir@hotmail.de' target='_blank' rel='noopener noreferrer'>adam.astamir@hotmail.de</a>
                         </div>
                     </div>
                     <div className='contactLocation'>
