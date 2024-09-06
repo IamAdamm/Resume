@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Portfolio.css';
-import Pizza from '../assets/pizza.png';
 import SfP from '../assets/SfP2.png';
 import WeightTracker from '../assets/WeightTracker.png';
 import MakeaMeal from '../assets/MakeaMeal.png';
@@ -28,8 +27,8 @@ function Portfolio() {
                 A dynamic Painting Ecommerce Website with intuitive and responsive design enhancing user experience with seamless browsing and checkout.
                 </p>
                 <div className='projectTextLinks'>
-                    <a href='https://github.com/IamAdamm/Pizza-Restaurant-Website' target="_blank">Code <GitHubIcon/>(WIP)</a>
-                    <a href='https://github.com/IamAdamm/Pizza-Restaurant-Website' target="_blank">Live Demo<OpenInNewIcon/> (WIP)</a>
+                    <a href='https://github.com/IamAdamm' target="_blank">Code <GitHubIcon/>(WIP)</a>
+                    <a href='https://github.com/IamAdamm' target="_blank">Live Demo<OpenInNewIcon/> (WIP)</a>
                 </div>
             </div>
         </div>
@@ -47,8 +46,8 @@ function Portfolio() {
                     maintenance calorie recommendations.
                 </p>
                 <div className='projectTextLinks'>
-                    <a href='https://github.com/IamAdamm/MakeAMeal' target="_blank">Code <GitHubIcon/></a>
-                    <a href='https://github.com/IamAdamm/MakeAMeal' target="_blank">Live Demo<OpenInNewIcon/> (WIP)</a>
+                    <a href='https://github.com/IamAdamm/Weight-Tracker/tree/main' target="_blank">Code <GitHubIcon/></a>
+                    <a href='https://weight-tracker-rose.vercel.app' target="_blank">Live Demo<OpenInNewIcon/></a>
                 </div>
             </div>
         </div>
@@ -64,8 +63,8 @@ function Portfolio() {
 
                 </p>
                 <div className='projectTextLinks'>
-                    <a href='https://github.com/IamAdamm/Weight-Tracker/tree/main' target="_blank">Code <GitHubIcon/></a>
-                    <a href='https://github.com/IamAdamm/Weight-Tracker/tree/main' target="_blank">Live Demo<OpenInNewIcon/> (WIP)</a>
+                    <a href='https://github.com/IamAdamm/MakeAMeal' target="_blank">Code <GitHubIcon/></a>
+                    <a href='https://github.com/IamAdamm/MakeAMeal' target="_blank">Live Demo (WIP)<OpenInNewIcon/></a>
                 </div>
             </div>
         </div>
