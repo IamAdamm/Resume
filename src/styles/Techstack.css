@@ -25,8 +25,9 @@
     .techstack {
         flex-direction: column;
         margin-top: 140px;
-        width: 60%;
+        width: 70%;
         flex-wrap: wrap;
+        padding: 0;
     }
     .techstack img{
         margin-top: 10px;
