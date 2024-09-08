@@ -28,8 +28,8 @@
         width: 60%;
         flex-wrap: wrap;
     }
-    .techstack .Icons img{
-        margin-top: 20px;
+    .techstack img{
+        margin-top: 10px;
     }
     .techstack h4 {
         border: none;
