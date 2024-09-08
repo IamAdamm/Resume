@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Portfolio.css';
-import SfP from '../assets/SfP2.png';
+import SfP from '../assets/SfP.png';
 import WeightTracker from '../assets/WeightTracker.png';
 import MakeaMeal from '../assets/MakeaMeal.png';
 import useIntersectionObserver from '../helpers/IntersectionObserver';

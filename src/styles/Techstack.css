@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     margin-top: 60px;
-    width: 40%;
+    width: 30%;
 }
 .techstack h4 {
     border-right: 2px solid black;
@@ -14,44 +14,11 @@
 .techstack img {
     width: 33px;
     height: 33px;
-    margin-left: 30px;
-}
-.techstack .htmlIcon {
+    margin-left: 35px;
+    padding: 5px;
     transition: transform .3s ;
 }
-.techstack .htmlIcon:hover {
-    transform: translateY(-10px);
-}
-.techstack .cssIcon {
-    transition: transform .3s ;
-}
-.techstack .cssIcon:hover {
-    transform: translateY(-10px);
-}
-.techstack .javascriptIcon {
-    transition: transform .3s ;
-}
-.techstack .javascriptIcon:hover {
-    transform: translateY(-10px);
-}
-.techstack .reactIcon {
-    transition: transform .3s ;
-}
-.techstack .reactIcon:hover {
-    transform: translateY(-10px);
-}
-.techstack .tailwindIcon {
-    transition: transform .3s ;
-    width: 38px;
-    height: 28px;
-}
-.techstack .tailwindIcon:hover {
-    transform: translateY(-10px);
-}
-.techstack .mySQLIcon {
-    transition: transform .3s ;
-}
-.techstack .mySQLIcon:hover {
+.techstack img:hover {
     transform: translateY(-10px);
 }
 @media screen and (max-width: 700px) {

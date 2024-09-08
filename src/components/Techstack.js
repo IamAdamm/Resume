@@ -6,6 +6,9 @@ import Javascript from '../assets/js.png';
 import ReactIcon from '../assets/react.png';
 import MySQL from '../assets/mysql.png';
 import Tailwind from '../assets/tailwind.png';
+import Nodejs from '../assets/nodejs.svg';
+import Git from '../assets/git.svg';
+
 
 function Techstack() {
   return (
@@ -16,8 +19,11 @@ function Techstack() {
             <img src={Css} alt='Css' className='cssIcon'/>
             <img src={Javascript} alt='Javascript' className='javascriptIcon'/>
             <img src={ReactIcon} alt='React' className='reactIcon'/>
-            <img src={Tailwind} alt='Tailwind' className='tailwindIcon'/>
             <img src={MySQL} alt='MySQL' className='mySQLIcon'/>
+            <img src={Tailwind} alt='Tailwind' className='tailwindIcon'/>
+            <img src={Nodejs} alt='NodeJs' className='nodejsIcon'/>
+            <img src={Git} alt='Github' className='gitIcon'/>
+
         </div>
     </div>
   )
