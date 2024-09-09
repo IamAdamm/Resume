@@ -58,7 +58,7 @@ function Portfolio() {
                 <p>
                     Make-a-Meal allows users to input their
                      desired macro nutrients and diet restrictions, 
-                    to then find a suitable Meal choosen by 
+                    to then find a suitable Meal chosen by 
                     AI in conjunction with an API. 
 
                 </p>
