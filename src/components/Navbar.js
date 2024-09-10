@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <div className='navbar'>
         <div className='leftSide'>
-            <h3 onClick ={() => scrollToSection('home')}>Adam.dev</h3>
+            <h3 onClick ={() => scrollToSection('home')}>Adam A.</h3>
         </div>
         <div className='rightSide'>
             <a onClick ={() => scrollToSection('home')}>Home</a>

@@ -12,13 +12,15 @@
     z-index: 1000;
 }
 .navbar .leftSide {
-    font-size: 30px;
     font-weight: bolder;
     display: flex;
     margin: 30px;
 }
 .navbar .leftSide h3{
     cursor: pointer;
+    border: 1px solid red;
+    font-size: 2rem;
+    height: 100%;
 }
 .navbar .rightSide a {
     font-size: 20px;
