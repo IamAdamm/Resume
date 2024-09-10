@@ -18,7 +18,6 @@
 }
 .navbar .leftSide h3{
     cursor: pointer;
-    border: 1px solid red;
     font-size: 2rem;
     height: 100%;
 }
