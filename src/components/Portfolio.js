@@ -27,7 +27,7 @@ function Portfolio() {
                 A dynamic Painting Ecommerce Website with intuitive and responsive design enhancing user experience with seamless browsing and checkout.
                 </p>
                 <div className='projectTextLinks'>
-                    <a href='https://github.com/IamAdamm' target="_blank">Code <GitHubIcon/>(WIP)</a>
+                    <a href='https://github.com/IamAdamm/Strife-for-Peace' target="_blank">Code <GitHubIcon/></a>
                     <a href='https://github.com/IamAdamm' target="_blank">Live Demo<OpenInNewIcon/> (WIP)</a>
                 </div>
             </div>
