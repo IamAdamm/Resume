@@ -47,7 +47,7 @@ function Portfolio() {
                 </p>
                 <div className='projectTextLinks'>
                     <a href='https://github.com/IamAdamm/Weight-Tracker/tree/main' target="_blank">Code <GitHubIcon/></a>
-                    <a href='https://weight-tracker-rose.vercel.app' target="_blank">Live Demo<OpenInNewIcon/></a>
+                    <a href='https://github.com/IamAdamm/Weight-Tracker/tree/main' target="_blank">Live Demo<OpenInNewIcon/></a>
                 </div>
             </div>
         </div>
