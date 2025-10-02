@@ -9,9 +9,9 @@ function Card() {
             <div className='profileImage'>
             </div>
             <div className='cardText'>
-                Front-End React Developer  <span className='wavingEmoji'>👋</span>
+                React & Python Developer  <span className='wavingEmoji'>👋</span>
                 <div>
-                    <p>Hello, I'm Adam Astamir. A passionate Front-end React Developer based in Hamburg, Germany 📍</p>
+                    <p>Hello, I'm Adam Astamir. A passionate Front-end <br/>React & Backend Python Developer based in Hamburg, Germany 📍</p>
                 </div>
                 <a href='https://github.com/IamAdamm' target='_blank' rel='noopener noreferrer'>
                     <span role='img' aria-label='Github' className='githubIcon'>

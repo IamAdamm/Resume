@@ -4,8 +4,8 @@ import Html from '../assets/html-5.png';
 import Css from '../assets/css-3.png';
 import Javascript from '../assets/js.png';
 import ReactIcon from '../assets/react.png';
-import MySQL from '../assets/mysql.png';
-import Tailwind from '../assets/tailwind.png';
+import Python from '../assets/python.png';
+import Pytorch from '../assets/pytorch.png';
 import Nodejs from '../assets/nodejs.svg';
 import Git from '../assets/git.svg';
 
@@ -19,8 +19,8 @@ function Techstack() {
             <img src={Css} alt='Css' className='cssIcon'/>
             <img src={Javascript} alt='Javascript' className='javascriptIcon'/>
             <img src={ReactIcon} alt='React' className='reactIcon'/>
-            <img src={MySQL} alt='MySQL' className='mySQLIcon'/>
-            <img src={Tailwind} alt='Tailwind' className='tailwindIcon'/>
+            <img src={Python} alt='Python' className='mySQLIcon'/>
+            <img src={Pytorch} alt='Pytorch' className='tailwindIcon'/>
             <img src={Nodejs} alt='NodeJs' className='nodejsIcon'/>
             <img src={Git} alt='Github' className='gitIcon'/>
 

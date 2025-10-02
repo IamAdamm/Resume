@@ -63,7 +63,7 @@ function Portfolio() {
 
                 </p>
                 <div className='projectTextLinks'>
-                    <a href='https://github.com/IamAdamm/MakeAMeal' target="_blank">Code <GitHubIcon/></a>
+                    <a href='https://github.com/IamAdamm/Weight-Tracker/tree/main' target="_blank">Code <GitHubIcon/></a>
                     <a href='https://github.com/IamAdamm/MakeAMeal' target="_blank">Live Demo (WIP)<OpenInNewIcon/></a>
                 </div>
             </div>

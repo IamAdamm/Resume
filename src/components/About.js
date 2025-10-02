@@ -14,24 +14,25 @@ function About() {
         </div>
         <div className='aboutText'>
             <h5>ABOUT ME</h5>
-            <h3>A dedicated Front-end React Developer based in Germany 📍</h3>
+            <h3>A dedicated Developer based in Germany 📍</h3>
             <p>
-                As a Junior Front-End Developer, 
-                I bring an impressive skill set 
-                in HTML, CSS, JavaScript, React,
-                and more. <br/><br/> I specialize in 
-                designing, building, and maintaining 
-                responsive websites that provide 
-                seamless user experiences. My 
-                proficiency includes crafting 
-                dynamic, engaging interfaces 
-                through clean, optimized code 
-                and the use of the latest development 
-                tools, frameworks and techniques. <br/><br/> 
-                I excel in 
-                collaborative environments, working 
-                with cross-functional teams to create 
-                outstanding web applications.
+            As a Junior Developer, 
+            I bring a strong skill set 
+            in HTML, CSS, JavaScript/Typescript, React, 
+            and Python. <br/><br/> I specialize in 
+            designing, building, and maintaining 
+            responsive front-end applications as well as 
+            developing back-end solutions with Python. 
+            My experience mostly includes working with 
+            PyTorch, giving me exposure to machine 
+            learning and data-driven applications. <br/><br/> 
+            I focus on writing clean, optimized code 
+            and leveraging modern frameworks, tools, 
+            and techniques. I thrive in collaborative 
+            environments, contributing to cross-functional 
+            teams to deliver outstanding web applications 
+            and innovative solutions.
+
             </p>
         </div>
     </div>
